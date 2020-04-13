@@ -132,4 +132,21 @@
 .button:hover {
   cursor: pointer;
 }
+
+/* Section services */
+.section {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.services .container {
+  width: 1140px;
+  height: 100vh;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 100px;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */

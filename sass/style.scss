@@ -132,3 +132,19 @@ $color-orange: #e58e26;
 .button:hover {
     cursor: pointer;
 }
+
+/* Section services */
+.section {
+    min-height: 100vh;
+    background-color: $color-three;
+}
+
+.services .container {
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+}
+
