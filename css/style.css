@@ -3,55 +3,11 @@
 /* fonts */
 /* colors */
 /* Global */
-* {
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   font-family: "Gotu";
   box-sizing: border-box;
-}
-
-/* Header */
-.splash {
-  background-image: url("https://i.postimg.cc/tCS0gZW9/brown-light-on-black-background-1108812.jpg");
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-/* Navigation */
-.splash-inner ul {
-  float: right;
-  list-style-type: none;
-}
-
-.splash-inner ul li {
-  display: inline-block;
-}
-
-ul li a {
-  text-decoration: none;
   color: #ffffff;
-  padding: 5px 20px;
-}
-
-.golden {
-  display: inline-block;
-}
-
-.logo {
-  float: left;
-  color: #fed330;
-  font-family: "Leckerli One";
-  font-size: 18px;
-  transition: 0.6s;
-}
-
-.logo:hover {
-  transform: scale(1.7);
-  cursor: pointer;
-}
-
-.splash-inner {
-  padding: 35px 100px;
 }
 /*# sourceMappingURL=style.css.map */
