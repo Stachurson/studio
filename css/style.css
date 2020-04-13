@@ -134,7 +134,7 @@
 }
 
 /* Section services */
-.section {
+.services {
   min-height: 100vh;
   background-color: #ffffff;
 }
@@ -145,8 +145,59 @@
   margin: 0 auto;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 100px;
-  -ms-flex-pack: center;
-      justify-content: center;
+  position: relative;
+}
+
+.services .container .text {
+  position: absolute;
+  left: 0;
+  top: 15vh;
+  right: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.text h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  letter-spacing: 0.9px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  text-shadow: none;
+  font-style: italic;
+  color: #707070;
+}
+
+.services .boxes {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.boxes .box {
+  text-align: center;
+  margin: 0 30px;
+}
+
+.box h3 {
+  font-size: 21px;
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.box p {
+  text-shadow: none;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
